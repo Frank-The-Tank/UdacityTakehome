@@ -113,11 +113,11 @@
 		86C92E382025583E00DED8CC /* UdacityTakehome */ = {
 			isa = PBXGroup;
 			children = (
+				86C92E692025591900DED8CC /* Model */,
+				86C92E682025591200DED8CC /* View */,
+				86C92E672025590A00DED8CC /* Controller */,
 				86C92E392025583E00DED8CC /* AppDelegate.swift */,
-				86C92E3B2025583E00DED8CC /* ViewController.swift */,
-				86C92E3D2025583E00DED8CC /* Main.storyboard */,
 				86C92E402025583E00DED8CC /* Assets.xcassets */,
-				86C92E422025583E00DED8CC /* LaunchScreen.storyboard */,
 				86C92E452025583E00DED8CC /* Info.plist */,
 			);
 			path = UdacityTakehome;
@@ -139,6 +139,30 @@
 				86C92E5B2025583F00DED8CC /* Info.plist */,
 			);
 			path = UdacityTakehomeUITests;
+			sourceTree = "<group>";
+		};
+		86C92E672025590A00DED8CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86C92E3B2025583E00DED8CC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		86C92E682025591200DED8CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86C92E3D2025583E00DED8CC /* Main.storyboard */,
+				86C92E422025583E00DED8CC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86C92E692025591900DED8CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CE43820A8A204D6FF22C0828 /* Frameworks */ = {
