@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A2DB67F1002F3F1E49EF57 /* Pods_UdacityTakehome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27C9AD822715019CF280E88 /* Pods_UdacityTakehome.framework */; };
 		86C92E3A2025583E00DED8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C92E392025583E00DED8CC /* AppDelegate.swift */; };
 		86C92E3C2025583E00DED8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C92E3B2025583E00DED8CC /* ViewController.swift */; };
 		86C92E3F2025583E00DED8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C92E3D2025583E00DED8CC /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AC25DF9A70828DDE9749E96 /* Pods-UdacityTakehome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdacityTakehome.release.xcconfig"; path = "Pods/Target Support Files/Pods-UdacityTakehome/Pods-UdacityTakehome.release.xcconfig"; sourceTree = "<group>"; };
+		76E227D2B3C935D61D575A68 /* Pods-UdacityTakehome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdacityTakehome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UdacityTakehome/Pods-UdacityTakehome.debug.xcconfig"; sourceTree = "<group>"; };
 		86C92E362025583E00DED8CC /* UdacityTakehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdacityTakehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C92E392025583E00DED8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C92E3B2025583E00DED8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		86C92E552025583E00DED8CC /* UdacityTakehomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdacityTakehomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C92E592025583F00DED8CC /* UdacityTakehomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityTakehomeUITests.swift; sourceTree = "<group>"; };
 		86C92E5B2025583F00DED8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27C9AD822715019CF280E88 /* Pods_UdacityTakehome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UdacityTakehome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A2DB67F1002F3F1E49EF57 /* Pods_UdacityTakehome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713CEC9C7279051DD3BAF168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E227D2B3C935D61D575A68 /* Pods-UdacityTakehome.debug.xcconfig */,
+				6AC25DF9A70828DDE9749E96 /* Pods-UdacityTakehome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86C92E2D2025583E00DED8CC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				86C92E4D2025583E00DED8CC /* UdacityTakehomeTests */,
 				86C92E582025583F00DED8CC /* UdacityTakehomeUITests */,
 				86C92E372025583E00DED8CC /* Products */,
+				713CEC9C7279051DD3BAF168 /* Pods */,
+				CE43820A8A204D6FF22C0828 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = UdacityTakehomeUITests;
 			sourceTree = "<group>";
 		};
+		CE43820A8A204D6FF22C0828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27C9AD822715019CF280E88 /* Pods_UdacityTakehome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86C92E5E2025583F00DED8CC /* Build configuration list for PBXNativeTarget "UdacityTakehome" */;
 			buildPhases = (
+				0D412D3A417022806CD759B8 /* [CP] Check Pods Manifest.lock */,
 				86C92E322025583E00DED8CC /* Sources */,
 				86C92E332025583E00DED8CC /* Frameworks */,
 				86C92E342025583E00DED8CC /* Resources */,
+				D7FD5A169AF0E1ED03B48070 /* [CP] Embed Pods Frameworks */,
+				147CBC6DBD1F435602476254 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D412D3A417022806CD759B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UdacityTakehome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		147CBC6DBD1F435602476254 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UdacityTakehome/Pods-UdacityTakehome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FD5A169AF0E1ED03B48070 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UdacityTakehome/Pods-UdacityTakehome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UdacityTakehome/Pods-UdacityTakehome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86C92E322025583E00DED8CC /* Sources */ = {
@@ -424,6 +505,7 @@
 		};
 		86C92E5F2025583F00DED8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E227D2B3C935D61D575A68 /* Pods-UdacityTakehome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +521,7 @@
 		};
 		86C92E602025583F00DED8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC25DF9A70828DDE9749E96 /* Pods-UdacityTakehome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
