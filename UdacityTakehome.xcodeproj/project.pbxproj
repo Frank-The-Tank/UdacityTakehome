@@ -15,6 +15,7 @@
 		86C92E442025583E00DED8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C92E422025583E00DED8CC /* LaunchScreen.storyboard */; };
 		86C92E4F2025583E00DED8CC /* UdacityTakehomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C92E4E2025583E00DED8CC /* UdacityTakehomeTests.swift */; };
 		86C92E5A2025583F00DED8CC /* UdacityTakehomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C92E592025583F00DED8CC /* UdacityTakehomeUITests.swift */; };
+		86D208FF20256C3D002169FB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D208FE20256C3D002169FB /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		86C92E552025583E00DED8CC /* UdacityTakehomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdacityTakehomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C92E592025583F00DED8CC /* UdacityTakehomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityTakehomeUITests.swift; sourceTree = "<group>"; };
 		86C92E5B2025583F00DED8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D208FE20256C3D002169FB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D27C9AD822715019CF280E88 /* Pods_UdacityTakehome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UdacityTakehome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 		86C92E692025591900DED8CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				86D208FE20256C3D002169FB /* Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C92E3C2025583E00DED8CC /* ViewController.swift in Sources */,
+				86D208FF20256C3D002169FB /* Card.swift in Sources */,
 				86C92E3A2025583E00DED8CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
